@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gupter:wght@400;500;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: "Gupter", serif;
+}
+
+nav {
+    line-height: 4.9rem;
+    font-size: 2.5rem;
+    max-width: 800px;
+    margin: 5px auto;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+
+h2 {
+    background: pink;
+    border-radius: 2rem 2rem 0 0;
+}
+
+ul {
+    background-color: #D4E4BC;
+    list-style-type: none;
+}
+
+ul:last-child {
+    border-radius: 0 0 2rem 2rem;
+}
+
+li {
+    border-top: 1px solid black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+a:hover {
+    color: #D4E4BC;
+    background-color: black;
+}
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+}
+
+p {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+img {
+    margin: 100px 0 40px 0;
+    width: 1080px;
+    height: 700px;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 8rem;
+}
+
+.big {
+    font-size: 5rem;
+    max-width: 250px;
+    border-radius: 4rem;
+    margin: 0 auto;
+    background-color: silver;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
